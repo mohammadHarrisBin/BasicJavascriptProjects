@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 250px;
+}
+.content{
+height: 100px;
+width: 100px;
+border: 0px solid black;
+margin: 0 auto;
+padding-top: 30px;
+text-align: center;
+font-family: fantasy;
+}
+

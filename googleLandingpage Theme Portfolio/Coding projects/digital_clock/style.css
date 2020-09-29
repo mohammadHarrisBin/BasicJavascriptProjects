@@ -1,0 +1,65 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #FF3F00;
+}
+.main{
+    background-color: #FF7F11;
+    width: 500px;
+    margin: 200px auto;
+    height:250px;
+    position: relative;
+    padding:20px;
+    border-radius: 10px;
+}
+.badge{
+    background-color: #FFFFFC;
+    width:150px;
+    height: 50px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    position: absolute;
+    left: 35%;
+    top:-60px;
+    border: 0px solid black;
+    border-radius: 5px;
+}
+.clock{
+   width: 100%;
+   height: 100%;
+   background-color: aliceblue;
+   padding:30px;
+   text-align: center;
+   font-size: 100px;
+   padding-top: 40px;
+   font-family: fantasy;
+   border-radius: 10px;
+}
+.date{
+    position: absolute;
+    top:260px;
+    left: 0;
+    text-align: center;
+    border: 0px solid black;
+    width: 100%;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #FF7F11;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top:90%;
+    width: 100%;
+    padding:20px;
+}
